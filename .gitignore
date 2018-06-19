@@ -66,3 +66,7 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+#
+# 2018-06-18: @lapcatsoftware is on my case for accidentally committing .DS_Store
+.DS_Store

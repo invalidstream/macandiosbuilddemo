@@ -22,8 +22,6 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-        <key>NSAllowsArbitraryLoads</key>
-        <true/>
 		<key>NSExceptionDomains</key>
 		<dict>
 			<key>www.subfurther.com</key>
@@ -31,6 +29,11 @@
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
 			</dict>
+            <key>subfurther.com</key>
+            <dict>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+            </dict>
 		</dict>
 	</dict>
 	<key>UILaunchStoryboardName</key>
